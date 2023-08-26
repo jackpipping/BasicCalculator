@@ -1,0 +1,48 @@
+<html lang="en">
+    <head>
+        <title>Basic Calculator</title>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" href="styles.css" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Lacquer&family=Roboto&display=swap"
+          rel="stylesheet"
+        />
+        <script src="/home/kaiwen/jquery-3.7.0.min.js"></script>
+      </head>
+      <body>
+        <div class = "main">
+          <div class = "calculator" id ="calculator">
+            <div class = "screen" id = "screen">0
+            </div>
+            <div class="keys">
+              <div class = "CnD">
+                <button class = "clear bigButton" onclick="clear1()">clear</button>             
+                <button class = "delete bigButton" onclick="delete1()">delete</button>
+              </div>              
+              <div class = "buttons">
+                <button class = "7 button" id = "7" onclick="clicked(7)">7</button>
+                <button class = "8 button" id = "8" onclick="clicked(8)">8</button>
+                <button class = "9 button" id = "9" onclick="clicked(9)">9</button>
+                <button class = "/ button" id = "/" onclick="clicked('/')">/</button>
+                <button class = "4 button" id = "4" onclick="clicked(4)">4</button>
+                <button class = "5 button" id = "5" onclick="clicked(5)">5</button>
+                <button class = "6 button" id = "6" onclick="clicked(6)">6</button>
+                <button class = "* button" id = "*" onclick="clicked('*')">*</button>
+                <button class = "1 button" id = "1" onclick="clicked(1)">1</button>
+                <button class = "2 button" id = "2" onclick="clicked(2)">2</button>
+                <button class = "3 button" id = "3" onclick="clicked(3)">3</button>
+                <button class = "- button" id = "-" onclick="clicked('-')">-</button>
+                <button class = ". button" id = "." onclick="clicked('.')">.</button>
+                <button class = "0 button" id = "0" onclick="clicked(0)">0</button>
+                <button class = "= button" id = "=" onclick="clicked('=')">=</button>
+                <button class = "+ button" id = "+" onclick="clicked('+')">+</button>
+              </div>
+              
+              
+            </div>
+        </div>
+        </div>
+        
+      </body>
+      <script src="script.js"></script>
+</html>

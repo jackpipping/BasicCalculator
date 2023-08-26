@@ -1,0 +1,92 @@
+.key {
+    border: .4rem solid black;
+    border-radius: .5rem;
+    margin: 1rem;
+    font-size: 1.5rem;
+    padding: 1rem .5rem;
+    transition: all .07s ease;
+    width: 10rem;
+    text-align: center;
+    color: white;
+    background: rgba(0,0,0,0.4);
+    text-shadow: 0 0 .5rem black;
+  }
+
+.calculator{
+  display: flex;
+  height: 700px;
+  width: 500px;
+  background-color: aquamarine;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.screen{
+  display: flex;
+  width: 450px;
+  height: 100px;
+  background-color: grey;
+  margin: 10px;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: 50px;
+  color: white;
+}
+
+.CnD{
+  display: flex;
+  width: 450px;
+  height: 75px;
+  background-color: orange;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.keys{
+  display: flex;
+  width: 450px;
+  height: 600px;
+  background-color: blueviolet;
+  margin: 10px;
+  flex-direction: column;
+}
+
+.buttons{
+  display: flex;
+  width: 450px;
+  height: 450px;
+  background-color: blue;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  flex-wrap: wrap;
+}
+
+.button{
+  display: flex;
+  width: 100px;
+  height: 100px;
+  background-color: azure;
+  margin: 5px;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+}
+
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 1000px
+}
+
+.bigButton{
+  display: flex;
+  width: 200px;
+  height: 60px;
+  margin: 5px;
+  background-color:darkkhaki;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+}
